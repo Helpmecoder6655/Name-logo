@@ -1,0 +1,18 @@
+.name-logo {
+    text-align: center;
+    margin-top: 250px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #E50914; /* Netflix red color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, text-shadow 0.2s;
+    cursor: pointer;
+}
+.name-logo:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Change shadow on hover */
+    color: red;
+}
